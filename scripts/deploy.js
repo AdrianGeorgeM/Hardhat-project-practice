@@ -6,7 +6,7 @@ async function main() {
 
 	console.log(`Counter deployed to: ${counter.address}`);
 }
-
+// // run the script = npx hardhat run scripts/deploy.js --network goerli
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
 main().catch((error) => {
